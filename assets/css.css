@@ -54,14 +54,17 @@ h3 {
   color: #0c1b33;
 }
 button {
-  background-color: #7a306c;
+  background-color: #ffeb6e;
   border: none;
   border-radius: 10px;
   width: 20%;
   padding-block: 1em;
-  color: #b2aa8e;
+  color: #0c1b33;
   font-size: 1.3em;
   font-family: "Rubik Doodle Shadow", system-ui;
   font-weight: 400;
   font-style: normal;
+}
+button:active {
+  background-color: #baaa40;
 }
