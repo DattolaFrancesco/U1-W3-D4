@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0c1b33;
+}
+main {
+  text-align: center;
+}
+h1 {
+  color: #dbfe87;
+  font-size: 3em;
+  text-shadow: 2px 2px 20px #b2aa8e;
+}
+h2 {
+  color: #b2aa8e;
+}
+#cellContainer {
+  width: 70%;
+  margin-inline: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+#cellPlayer {
+  width: 70%;
+  margin-inline: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+h3 {
+  margin-block: 5%;
+  color: #b2aa8e;
+}
+.cell {
+  width: 8%;
+}
+.background {
+  background-color: #dbfe87;
+}
+button {
+  background-color: #7a306c;
+  border: none;
+  border-radius: 10px;
+  width: 20%;
+  padding-block: 1em;
+  color: #b2aa8e;
+  font-size: 1.3em;
+}
